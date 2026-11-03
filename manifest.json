@@ -1,0 +1,26 @@
+{
+  "name": "四级备考站",
+  "short_name": "四级备考",
+  "description": "刘晓艳词书、近五年真题、基础语法、记忆曲线与错题本，完全离线的四级备考工具。",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#f4f6fb",
+  "theme_color": "#4f5bd5",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "每日 5 题", "short_name": "每日 5 题", "url": "./pages/basics.html#daily", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "复习到期", "short_name": "复习", "url": "./pages/review.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "真题库", "short_name": "真题", "url": "./pages/real-exams.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
